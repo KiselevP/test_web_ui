@@ -7,7 +7,7 @@ public class PageMyPostsTest extends AbstractTestClass {
     String copyright = "Copyright ⓒ 2022 . Geekbrains";
 
     @Test
-    void approvePostsCountOnPage() {
+    void postsCountOnPage() {
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage
                 .inputLogin(getUsername())

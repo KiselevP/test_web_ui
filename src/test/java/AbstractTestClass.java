@@ -32,8 +32,6 @@ public class AbstractTestClass {
         driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
         driver.get("https://test-stand.gb.ru/login");
 
-//        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-
         configFile = new FileInputStream("src/main/resources/my.properties");
         prop.load(configFile);
 
